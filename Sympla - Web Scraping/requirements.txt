@@ -1,0 +1,4 @@
+bs4==4.7.1
+urllib.request==3.7
+selenium==3.141.0
+psycopg2==2.8.3

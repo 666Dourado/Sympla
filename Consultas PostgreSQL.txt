@@ -1,0 +1,35 @@
+select cidade, count(*) from tb_eventos
+where cidade not in ('-')
+	group by cidade
+	order by count(*) desc
+	
+select estado, count(*) from tb_eventos
+where estado not in ('-')
+	group by estado
+	order by count(*) desc
+	
+[[--------------------------]]
+	
+select ROUND((sum(qnt_lotes)/count(*)),2) from tb_eventos
+	where atualizado = 1
+	
+	
+select sum(qnt_lotes) from tb_eventos
+	where atualizado = 1
+	
+select count(*)from tb_eventos
+	where atualizado = 1
+	
+[[--------------------------]]
+
+select dia_semana, count(*) from tb_datas
+	group by dia_semana
+	order by count(*) desc
+
+[[--------------------------]]
+	
+select max(valor_ingresso) as "Ingresso mais caro"
+	from tb_eventos
+	
+select * from tb_eventos
+	where valor_ingresso = (select max(valor_ingresso) from tb_eventos)
