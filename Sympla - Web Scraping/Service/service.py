@@ -6,9 +6,8 @@ class service:
         self.error = None
 
     def monitor(self):
-        #instanciando as classes
-
-        con = controller()
-
-        con.recuperaURL()
-        #con.recuperaEventos()
+       
+        while True:
+             #instanciando as classes
+            con = controller()
+            con.recuperaURL()
