@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 import time
 
-from Controller.controllerBanco import conBanco
+from Model.modelBanco import conBanco
 
 class auxiliar:
 

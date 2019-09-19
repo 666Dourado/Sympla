@@ -9674,3 +9674,29 @@ bail@chrome://marionette/content/sync.js:237:64
 [GPU 15140,
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1568913976531	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\RAFAEL~1.DOU\\AppData\\Local\\Temp\\rust_mozprofile.lR0Ork1cUZJG"
+1568913987593	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568913987593	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568913987593	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568913987593	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1568913997730	Marionette	INFO	Listening on port 54527
+1568913997759	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.sympla.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=641085068, line 1: unreachable code after return statement
+JavaScript warning: https://www.sympla.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=641085068, line 1: unreachable code after return statement
+JavaScript warning: https://www.sympla.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=641085068 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: https://gum.criteo.com/syncframe?topUrl=www.sympla.com.br#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22idfs%22:{%22origin%22:0,%22value%22:null},%22lwid%22:{%22origin%22:3,%22value%22:%220f91648b-30d3-4611-be7b-d4c70a23479b%22},%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22pm%22:0,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22sympla.com.br%22,%22topUrl%22:%22www.sympla.com.br%22,%22uid%22:null,%22version%22:%225_3_1%22}, line 12: SecurityError: The operation is insecure.
+1568914032264	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+[Parent 21508, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1568619504/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 26180, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1568619504/build/src/ipc/chromium/s[rCch/iclhd 7rome/common/ipc_channel_win.cc, line 892, Chrome_ChildThread] WARNI341
+NG: pipe error: 109: fil[e z:/task_1568619504/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7892[Parent 21508, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1568619504/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11044, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1568619504/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11044, Chrome_ChildThread] WARNING: pipe error: 109: file z:1568914048776	Marionette	INFO	Stopped listening on port 54527
+[GPU 25196
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

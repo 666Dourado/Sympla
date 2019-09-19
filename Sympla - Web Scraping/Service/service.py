@@ -6,7 +6,6 @@ class service:
         self.error = None
 
     def monitor(self):
-       
         while True:
              #instanciando as classes
             con = controller()

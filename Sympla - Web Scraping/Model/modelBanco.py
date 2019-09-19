@@ -1,5 +1,5 @@
 from datetime import datetime
-from Config.banco import bancoPostgre
+from Model.banco import bancoPostgre
 
 class conBanco:
 

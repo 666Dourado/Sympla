@@ -2,7 +2,7 @@ from datetime import datetime, timedelta
 import time
 
 from Scraper.scraper import selenium
-from Controller.controllerBanco import conBanco
+from Model.modelBanco import conBanco
 from Controller.controllerAuxiliar import auxiliar
 
 class controller:
